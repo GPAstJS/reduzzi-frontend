@@ -1,0 +1,73 @@
+/** @format */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 700;
+    src: local('axiforma'), url('@fonts/Kastelov - Axiforma Bold.otf'),
+        format('otf');
+}
+
+@font-face {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    src: local('axiforma'), url('@fonts/Kastelov - Axiforma Medium.otf'),
+        format('otf');
+}
+@font-face {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 400;
+    src: local('axiforma'), url('@fonts/Kastelov - Axiforma Regular.otf'),
+        format('otf');
+}
+@font-face {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 300;
+    src: local('axiforma'), url('@fonts/Kastelov - Axiforma Light.otf'),
+        format('otf');
+}
+@font-face {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 100;
+    src: local('axiforma'), url('@fonts/Kastelov - Axiforma Thin.otf'),
+        format('otf'), local('axiforma'),
+        url('@fonts/Kastelov - Axiforma Italic.otf'), format('otf');
+}
+@font-face {
+    font-family: 'Axiforma';
+    font-style: italic;
+    font-weight: 400;
+    src: local('axiforma'), url('@fonts/Kastelov - Axiforma Italic.otf'),
+        format('otf');
+}
+
+:root {
+    --primary: #053c5c;
+    --icons: #00a7fa;
+    --white: #eef1f6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 1px;
+    font-family: 'Axiforma', serif;
+    scrollbar-color: #fff;
+}
+
+html {
+    height: fit-content;
+}
+
+body {
+    height: fit-content;
+}
